@@ -12,3 +12,13 @@ signature(s) and javadocs for all functions we will need to accomplish this. The
  just provide the interface.
 
 2) Please write the unit tests for your functions. Function bodies are required for this part.
+
+===
+
+Notes:
+    c.p.s.AmicablePairUtil
+        contains the specified method: isAmicable(...)
+        contains a generator method for amicable pairs
+
+    c.p.s.AmicableTester
+        Junit test class in the same package (under test/java)
