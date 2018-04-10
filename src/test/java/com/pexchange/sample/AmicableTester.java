@@ -12,6 +12,8 @@ public class AmicableTester {
      * I like enums for static data which won't change any more often than compilation - it gives type safety and makes things obvious, even if it takes a
      * little longer to set up.  If external files are used, there's the parsing overhead, and the wrangling of the data if it doesn't parse correctly.
      * Obviously, if you need a pluggable set of input data, then you need external files.
+     *
+     * First and last pairs grabbed from wikipedia's page on amicable numbers: https://en.wikipedia.org/wiki/Amicable_numbers
      */
     public enum AmicableTestValue {
         FIRST(220, 284, true),        //known amicable values

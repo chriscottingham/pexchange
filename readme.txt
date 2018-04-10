@@ -12,12 +12,3 @@ signature(s) and javadocs for all functions we will need to accomplish this. The
  just provide the interface.
 
 2) Please write the unit tests for your functions. Function bodies are required for this part.
-
-===
-
-Notes:
-
-On testing:
-    It would be nice to have some known, pre-calculated values against which to confirm that it's doing the right thing.  Only way to get these is to write all
-    the bits, generate a list, verify it somehow, and make it a static data source against which to test (in the AmicableTester.AmicableTestValue enum, in this
-    case).
